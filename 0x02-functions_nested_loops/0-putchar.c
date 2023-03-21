@@ -1,9 +1,4 @@
-#include <stdio.h>
-/**
-*main - prog entry point
-*
-*Return : 0 for success
-*/
+#include "main.h"
 
 int main(void)
 {
