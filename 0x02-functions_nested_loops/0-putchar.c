@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
-*main 
+*main - prog entry point
 *
-*Return : 0
+*Return : 0 for success
 */
 
 int main(void)
 {
 	int letter;
-	letter ='_';
+
+	letter = '_';
 	putchar(letter);
-	letter ='p';
+	letter = 'p';
 	putchar(letter);
-	letter ='u';
+	letter = 'u';
 	putchar(letter);
 	letter = 't';
 	putchar(letter);
