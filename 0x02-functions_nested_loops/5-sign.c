@@ -8,8 +8,10 @@
  *
  * Return: is (1) or (0) for success, and  (-1) for failure
  */
+
 int print_sign(int n)
 {
+
 	if (n > 0)
 	{
 		_putchar('+');
@@ -20,7 +22,7 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else if (n < 0)
+	else
 	{
 		_putchar('-');
 		return (-1);
