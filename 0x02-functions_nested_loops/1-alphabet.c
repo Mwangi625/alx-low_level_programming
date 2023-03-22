@@ -2,7 +2,7 @@
 /**
  * main - program entry point
  *
- *print_alphabet function prints the alphabet, in lowercase, 
+ *description print_alphabet function prints the alphabet, in lowercase,
  *followed by a new line
  *
  * Return: Always 0 for success
