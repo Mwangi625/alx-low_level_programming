@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_puts2 - a function that prints a string, followed by a new line, to stdout
+*puts2 - a function that prints a string, followed by a new line, to stdout
 *
 *@str: string to be printed
 *
@@ -9,13 +9,18 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	int len = 0, i = 0;
 
 	while (str[i] != '\0')
 	{
-		_putchar(str[i]);
-		_putchar('\n');
 		i++;
 	}
-	
+	len -= 1;
+
+	for (; i <= len; i += 2)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
+
 }
