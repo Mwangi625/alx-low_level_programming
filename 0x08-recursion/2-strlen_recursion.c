@@ -4,7 +4,7 @@
 *
 *@s: parameter to calculate length
 *
-*Return 0 or _strlen_recursion
+*Return: integer value
 */
 
 int _strlen_recursion(char *s)
