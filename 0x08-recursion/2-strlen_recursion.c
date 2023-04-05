@@ -4,7 +4,7 @@
 *
 *@s: parameter to calculate length
 *
-*Return 0
+*Return 0 or _strlen_recursion
 */
 
 int _strlen_recursion(char *s)
@@ -13,7 +13,6 @@ int _strlen_recursion(char *s)
 	{
 		return (1 + _strlen_recursion(s + 1));
 	}
-	return(0);
-
+	return (0);
 
 }
