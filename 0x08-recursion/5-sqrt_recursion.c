@@ -1,4 +1,5 @@
 #include "main.h"
+int perfectSquare(int n, int c);
 /**
 *_sqrt_recursion - a function that returns the
 *natural square root of a number.
