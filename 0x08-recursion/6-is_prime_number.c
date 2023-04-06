@@ -1,4 +1,5 @@
 #include "main.h"
+int prime(int n, int c);
 /**
 *is_prime_number - a function that returns 1
 * if the input integer is a prime number, otherwise return 0
